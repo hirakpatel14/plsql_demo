@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table OL$
+--------------------------------------------------------
+
+  CREATE GLOBAL TEMPORARY TABLE "SYSTEM"."OL$" SHARING=METADATA 
+   (	"OL_NAME" VARCHAR2(128 BYTE), 
+	"SQL_TEXT" LONG, 
+	"TEXTLEN" NUMBER, 
+	"SIGNATURE" RAW(16), 
+	"HASH_VALUE" NUMBER, 
+	"HASH_VALUE2" NUMBER, 
+	"CATEGORY" VARCHAR2(128 BYTE), 
+	"VERSION" VARCHAR2(64 BYTE), 
+	"CREATOR" VARCHAR2(128 BYTE), 
+	"TIMESTAMP" DATE, 
+	"FLAGS" NUMBER, 
+	"HINTCOUNT" NUMBER, 
+	"SPARE1" NUMBER, 
+	"SPARE2" VARCHAR2(1000 BYTE)
+   ) ON COMMIT PRESERVE ROWS ;

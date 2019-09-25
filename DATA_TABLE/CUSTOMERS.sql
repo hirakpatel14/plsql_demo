@@ -1,0 +1,5 @@
+REM INSERTING into SYSTEM.CUSTOMERS
+SET DEFINE OFF;
+Insert into SYSTEM.CUSTOMERS (CUST_ID,CUST_NAME,CUST_ADDRESS,CONTACT_NO,CRTE_DT,CRTE_BY,MDFY_DT,MDFY_BY) values (1,'Hirak','Nirmalnagar, Gamdi, Anand',8866271692,to_date('13-SEP-19','DD-MON-RR'),'Manual Entry',null,null);
+Insert into SYSTEM.CUSTOMERS (CUST_ID,CUST_NAME,CUST_ADDRESS,CONTACT_NO,CRTE_DT,CRTE_BY,MDFY_DT,MDFY_BY) values (2,'User1','Ambavadi, Ahmedabad',8866271693,to_date('18-SEP-19','DD-MON-RR'),'Manual Entry',null,null);
+Insert into SYSTEM.CUSTOMERS (CUST_ID,CUST_NAME,CUST_ADDRESS,CONTACT_NO,CRTE_DT,CRTE_BY,MDFY_DT,MDFY_BY) values (3,'User2','Thaltej, Ahmedabad',8866271694,to_date('18-SEP-19','DD-MON-RR'),'Manual Entry',null,null);

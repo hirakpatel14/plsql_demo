@@ -1,0 +1,8 @@
+--------------------------------------------------------
+--  Ref Constraints for Table BANK_ACCOUNTS
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM"."BANK_ACCOUNTS" ADD CONSTRAINT "FK_CUSTOMERS" FOREIGN KEY ("CUST_ID")
+	  REFERENCES "SYSTEM"."CUSTOMERS" ("CUST_ID") ENABLE;
+  ALTER TABLE "SYSTEM"."BANK_ACCOUNTS" ADD CONSTRAINT "FK_BRANCH_DETAILS" FOREIGN KEY ("BRANCH_ID")
+	  REFERENCES "SYSTEM"."BRANCH_DETAILS" ("BRANCH_ID") ENABLE;

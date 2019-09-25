@@ -1,0 +1,3 @@
+REM INSERTING into SYSTEM.PROC_DT_TB
+SET DEFINE OFF;
+Insert into SYSTEM.PROC_DT_TB (CURR_BUS_DT,PREV_BUS_DT,NEXT_BUS_DT,CRTE_DT,CRTE_BY,MDFY_DT,MDFY_BY) values (to_date('04-SEP-19','DD-MON-RR'),to_date('03-SEP-19','DD-MON-RR'),to_date('05-SEP-19','DD-MON-RR'),null,null,null,null);
